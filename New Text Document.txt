@@ -1,0 +1,43 @@
+add verbose always to gitcommit to check diffenreces in message window. or other commands.
+
+git diff will check difference between present and before added file if no argument
+if 2 arguments given compares for difference --sh1 code from git log
+vimeditor q to exit
+
+git checkout switch between branches or commits(snapshots) overwrites not commited in current directory-- branch creator with -b switch name
+git branch name
+git checkout name
+or gitcheckout -b name creates branch and switches
+
+git branch master for master branch
+git checkout -b hotfix
+
+
+git push --set-upstream origin hotfix
+note:-pusing upstream only changing directory contents when branch created and added files
+
+git merge hotfix(need to be in master to merge in it)
+git branch -d hotfix deletes it
+(delets locally to delete remote need to use(push remote too if u pushed the branch u created) git push origin -d hotfix)
+
+note master branch if given name merges it to the branch ur working on
+
+
+
+git reset HEAD~20 moves tip to different branch or commit when reseted commits are lost during next commit--soft or hard
+git revert undos without chnaging history
+
+merge conflict --- same file changed in different parts
+Anything that has  merge conflicts and hasn’t been resolved is listed as unmerged. so you can open them manually and resolve those conflict
+
+pull and push updated not updated carefullness
+
+origin created automatically when cloned but not when init local repository. need to add orgiin manually
+
+git remote add origin <repo_url>
+
+git commit --amend to add messages etc to existing commit if not specified adds files or messages existing in present commit to last commit
+
+git config --global core.editor "notepad"
+git config --global user.name === and email aslo add to global configuration file in home directory... without global adds to local config
+ 
