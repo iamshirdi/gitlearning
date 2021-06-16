@@ -1,5 +1,7 @@
 ### About
 - Git is Directed acyclic graph
+- short - continous improvement. stability,development branches. testing , quality through pull requests
+- snapshort is an entire project. .Git contains staged and project history, objects etc
 - Git commits point to their parent commits
 - HEAD -> master
 HEAD is a reference to the current commit.master is the name of the branch, and this
