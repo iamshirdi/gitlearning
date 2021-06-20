@@ -1,5 +1,5 @@
 ### About
-- Git is Directed acyclic graph
+- Git commit history is Directed acyclic graph
 - short - continous improvement. stability,development branches. testing , quality through pull requests
 - snapshort is an entire project. .Git directory contains staged and project history, objects etc
 - Git commits point to their parent commits
@@ -27,6 +27,14 @@ C (branch)
 - git remote -v to display remote information
 - git remote add name (origin) url(usually ends with .git) short hand reference as origin
 - git push -u(tracks changes) origin(repository name short hand reference can use or url) branch name (default master) 
+
+### Branch,Merge
+- git log --oneline --graph --all . Add --all shows all of the local branches instead of default branch you are currently on.
+- git checkout sha-1(detached head) and git checkout -b auto create instead of git branch branchlabel 
+- git branch for all list branches and git branch -d branchlabel to delete
+- The -D will let you delete even if unmerged commits are present. only feature label deleted the dangling commits are later garbage collected by git automatically
+- The default fast forward merge can be overwritten by git merge --no-ff feature3 (some companies etc require the merge branch to be displayed- non linear history)
+- checkout to branch and then merge the branch u want to within this branch can view graphicall using online graph of current branch
 
 ### commit messages
 - must be in imperative active short detailed,Capitalized like ADD REMOVE etc
