@@ -35,6 +35,20 @@ C (branch)
 - The -D will let you delete even if unmerged commits are present. only feature label deleted the dangling commits are later garbage collected by git automatically
 - The default fast forward merge can be overwritten by git merge --no-ff feature3 (some companies etc require the merge branch to be displayed- non linear history)
 - checkout to branch and then merge the branch u want to within this branch can view graphicall using online graph of current branch
+- git merge --abort to merge/abort changes
+- origin/master label represents the tip of the tracking branch that tracks the master
+branch on the remote repository.
+- master local repository tip
+- origin/HEAD label represents the tip of the default branch on the remote repository.
+The default branch on the remote repository is the master branch
+
+### Rewriting history
+- git commit --amend -m "message here" will change/(overwrite files) and the sha commit compared to previous
+- git rebase -i sha1 (parent commit) to edit/perform actions like delete,squash,pick,edit on its children
+- git merge --squash feature2 while checking out master to squash(single commit instead of multiple commits of branch) the merge. git commit if want  to add message
+- rebase -i is performed on same branch unlike rebase
+- git checkout feature and git rebase master to rebase feature commit to tip of master branch(feature branch have master files in working directory now easy fast forward master branch due to same ancestor). git rebase--continue after fixing the staged conflict files
+ 
 
 ### commit messages
 - must be in imperative active short detailed,Capitalized like ADD REMOVE etc
