@@ -49,6 +49,13 @@ The default branch on the remote repository is the master branch
 - rebase -i is performed on same branch unlike rebase
 - git checkout feature and git rebase master to rebase feature commit to tip of master branch(feature branch have master files in working directory now easy fast forward master branch due to same ancestor). git rebase--continue after fixing the staged conflict files
  
+### pull requests
+- pull request can be created  without commits when creating branch to track,or any changes made with ultimate goal of merging after reviews/feedback by peers
+- forking(can alsobe used for testing,opensource etc) does not read write permission on original true source of truth repository. can pull request and the owner can perform the merge
+- forking(remote) sync needs to perform everytime manually(onto upstream) if u want to pull etcc or be to update. may invovole multiple remote repositroies
+- centralized workflow cannot make use of branches,pull requests:discussions,mreges not good practice
+- feature branch workflow should be prefered over centralized like dev,production. Some common practices are adding testing dev before adding to production hotfixing production and replicate the fixes in dev too. merge occurs only after these steps no direct merge between dev and production
+
 
 ### commit messages
 - must be in imperative active short detailed,Capitalized like ADD REMOVE etc
