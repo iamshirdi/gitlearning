@@ -54,7 +54,8 @@ The default branch on the remote repository is the master branch
 - forking(can alsobe used for testing,opensource etc) does not read write permission on original true source of truth repository. can pull request and the owner can perform the merge
 - forking(remote) sync needs to perform everytime manually(onto upstream) if u want to pull etcc or be to update. may invovole multiple remote repositroies
 - centralized workflow cannot make use of branches,pull requests:discussions,mreges not good practice
-- feature branch workflow should be prefered over centralized like dev,production. Some common practices are adding testing dev before adding to production hotfixing production and replicate the fixes in dev too. merge occurs only after these steps no direct merge between dev and production
+- feature branch workflow should be prefered over centralized like dev,production. most of work done topic branches
+- Some common practices of gitworkflow(allows work to be done even if they are hotfix in production,devs) are adding testing dev before adding to production hotfixing production and replicate the fixes in dev too. merge occurs only after these steps no direct merge between dev and production
 
 
 ### commit messages
