@@ -19,9 +19,16 @@ C (branch)
 - Lightweight git tag v0.1 . Tags must be pushed git push remote name  tagname or --tags for all
 - Annotated git tag -a -m "" or without m editor pops up similar to command. has author information signing etc and also an object
 
+<hr>
+<br>
+<a href = "https://www.coursera.org/verify/8XD8NE2FZ7PJ"><img src = "./static/certificate.PNG "></a>
+<hr>
+<br>
+
+
 ### Installation
-- git config user.name 
-- git config core.editor .
+- git config user.name  
+- git config core.editor 
 
 ### Remote
 - git remote -v to display remote information
@@ -48,6 +55,9 @@ The default branch on the remote repository is the master branch
 - git merge --squash feature2 while checking out master to squash(single commit instead of multiple commits of branch) the merge. git commit if want  to add message
 - rebase -i is performed on same branch unlike rebase
 - git checkout feature and git rebase master to rebase feature commit to tip of master branch(feature branch have master files in working directory now easy fast forward master branch due to same ancestor). git rebase--continue after fixing the staged conflict files
+<br>
+<br>
+<img src = "./static/rebase.PNG ">
  
 ### pull requests
 - pull request can be created  without commits when creating branch to track,or any changes made with ultimate goal of merging after reviews/feedback by peers
@@ -56,7 +66,9 @@ The default branch on the remote repository is the master branch
 - centralized workflow cannot make use of branches,pull requests:discussions,mreges not good practice
 - feature branch workflow should be prefered over centralized like dev,production. most of work done topic branches
 - Some common practices of gitworkflow(allows work to be done even if they are hotfix in production,devs) are adding testing dev before adding to production hotfixing production and replicate the fixes in dev too. merge occurs only after these steps no direct merge between dev and production
-
+<br>
+<br>
+<img src = "./static/gitflow.PNG ">
 
 ### commit messages
 - must be in imperative active short detailed,Capitalized like ADD REMOVE etc
