@@ -1,3 +1,5 @@
+<a href = "https://www.coursera.org/verify/8XD8NE2FZ7PJ"><img src = "./static/certificate.PNG "></a>
+
 ### About
 - Git commit history is Directed acyclic graph
 - short - continous improvement. stability,development branches. testing , quality through pull requests
@@ -18,12 +20,6 @@ C (branch)
 - Caret (^ same as parent ^2 points to two parents only occurs when there is merge) refers to parent of merge commit
 - Lightweight git tag v0.1 . Tags must be pushed git push remote name  tagname or --tags for all
 - Annotated git tag -a -m "" or without m editor pops up similar to command. has author information signing etc and also an object
-
-<hr>
-<br>
-<a href = "https://www.coursera.org/verify/8XD8NE2FZ7PJ"><img src = "./static/certificate.PNG "></a>
-<hr>
-<br>
 
 
 ### Installation
