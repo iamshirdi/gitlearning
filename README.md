@@ -1,4 +1,4 @@
-<a href = "https://www.coursera.org/verify/8XD8NE2FZ7PJ"><img src = "./static/certificate.PNG "></a>
+<a href = "https://www.atlassian.com/university"><img src = "./static/certificate.PNG "></a>
 
 ### About
 - Git commit history is Directed acyclic graph
