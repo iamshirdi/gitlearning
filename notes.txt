@@ -1,3 +1,8 @@
+git submodule add ""
+git submodule update --recursive --remote
+
+
+
 add verbose always to gitcommit to check diffenreces in message window. or other commands.
 
 git diff will check difference between present and before added file if no argument
@@ -28,7 +33,7 @@ git reset HEAD~20 moves tip to different branch or commit when reseted commits a
 git revert undos without chnaging history
 
 merge conflict --- same file changed in different parts
-Anything that has  merge conflicts and hasn’t been resolved is listed as unmerged. so you can open them manually and resolve those conflict
+Anything that has  merge conflicts and hasnâ€™t been resolved is listed as unmerged. so you can open them manually and resolve those conflict
 
 pull and push updated not updated carefullness
 
